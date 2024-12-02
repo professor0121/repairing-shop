@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Services from "@/components/services";
+import AboutUs from "@/components/aboutus";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -24,6 +25,7 @@ export default function Home() {
         <p className="mt-4">We provide the best repair services for ACs, fridges, and electronics.</p>
       </main>
       <Services /> 
+      <AboutUs/>
       <Footer />
     </div>
   );

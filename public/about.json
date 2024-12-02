@@ -1,0 +1,19 @@
+{
+    "title": "About AC, Fridge, and Electronics Repairing Shop",
+    "description": "We are a trusted provider of high-quality repair services for home appliances, including air conditioners, refrigerators, electronics, and more. With years of experience, we ensure your devices are repaired by certified professionals.",
+    "mission": "Our mission is to provide timely and reliable repair services, ensuring that your appliances run efficiently and last longer.",
+    "vision": "To become the leading repair service provider in the region, offering innovative solutions and unmatched customer satisfaction.",
+    "team": [
+      {
+        "name": "John Doe",
+        "position": "Founder & CEO",
+        "bio": "John is the founder of AC, Fridge, and Electronics Repairing Shop. With over 15 years in the appliance repair industry, he has built a team of highly skilled technicians."
+      },
+      {
+        "name": "Jane Smith",
+        "position": "Lead Technician",
+        "bio": "Jane is the lead technician with expertise in AC and refrigerator repairs. She has been with the company for over 10 years and ensures quality service."
+      }
+    ]
+  }
+  
