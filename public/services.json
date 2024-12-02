@@ -1,0 +1,33 @@
+[
+    {
+      "icon": "FaSnowflake",
+      "title": "AC Repairing",
+      "description": "Comprehensive AC repair services, including installation, maintenance, and gas refilling."
+    },
+    {
+      "icon": "FaTools",
+      "title": "Fridge Repairing",
+      "description": "Expert fridge repair services, ensuring your refrigeration units work perfectly."
+    },
+    {
+      "icon": "FaTv",
+      "title": "Electronics Repairing",
+      "description": "We handle repairs for TVs, washing machines, and other home appliances."
+    },
+    {
+      "icon": "FaHome",
+      "title": "Home Appliances Repair",
+      "description": "We fix all home appliances, from microwaves to dishwashers, with a focus on quality."
+    },
+    {
+      "icon": "FaPlug",
+      "title": "Electrical Repairs",
+      "description": "We offer electrical system troubleshooting and repair for your home and office."
+    },
+    {
+      "icon": "FaHeadphones",
+      "title": "Audio Equipment Repair",
+      "description": "Repair services for speakers, headphones, and other audio equipment for home and work."
+    }
+  ]
+  
