@@ -3,6 +3,7 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Services from "@/components/services";
 import AboutUs from "@/components/aboutus";
+import SwiperSlider from "@/components/SwiperSlider";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -24,6 +25,7 @@ export default function Home() {
         <h1 className="text-3xl font-bold">Welcome to our shop!</h1>
         <p className="mt-4">We provide the best repair services for ACs, fridges, and electronics.</p>
       </main>
+      <SwiperSlider/>
       <Services /> 
       <AboutUs/>
       <Footer />
