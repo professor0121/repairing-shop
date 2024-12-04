@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -38,38 +39,26 @@ const Header = () => {
             menuOpen ? 'block' : 'right-full'
           } absolute top-full top-16 right-0 w-44 bg-blue-600 md:static md:w-auto md:flex`}
         >
-          <ul className="flex flex-col md:flex-row md:space-x-6 text-lg text-center">
+          <ul className="flex flex-col md:flex-row md:space-x-6 text-lg text-center">   
             <li>
-              <a
-                href="#"
-                className="block py-2 px-4 hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-300"
-              >
-                Home
-              </a>
+            <Link className="block py-2 px-4 hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-300"
+               href="/">Home</Link>
             </li>
             <li>
-              <a
-                href="#"
-                className="block py-2 px-4 hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-300"
-              >
-                About Us
-              </a>
+            <Link className="block py-2 px-4 hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-300"
+               href="/about">About Us</Link>
             </li>
             <li>
-              <a
-                href="#"
-                className="block py-2 px-4 hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-300"
-              >
-                Services
-              </a>
+            <Link className="block py-2 px-4 hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-300"
+               href="/service">Services</Link>
             </li>
             <li>
-              <a
-                href="#"
-                className="block py-2 px-4 hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-300"
-              >
-                Contact
-              </a>
+            <Link className="block py-2 px-4 hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-300"
+               href="/blog">Blogs</Link>
+            </li>
+            <li>
+            <Link className="block py-2 px-4 hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-300"
+               href="/contact">Contact Us</Link>
             </li>
           </ul>
         </nav>

@@ -11,3 +11,7 @@ export default function Document() {
     </Html>
   );
 }
+if (typeof window !== 'undefined') {
+  // Safe to use document or window here
+  console.log(document.title);
+}
